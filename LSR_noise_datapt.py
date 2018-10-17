@@ -208,8 +208,8 @@ positive_control(coefficients_guess);
 for t in range(timepoint):
     Fluo_gs[t] = Fluo_th[t];
 
-coeff_results1 = run_monte_carlo_1(coefficients_guess, 20);
-#coeff_results2 = run_monte_carlo_2(coeff_results1, 5);
+coeff_results1 = run_monte_carlo_1(coefficients_guess, 50);
+coeff_results2 = run_monte_carlo_2(coeff_results1, 20);
 
 print("Monte-Carlo complete! true value = ", coefficients, " values obtained = ", coeff_results1);
 
