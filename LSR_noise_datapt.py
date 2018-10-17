@@ -130,7 +130,7 @@ def run_LSR(coeff_temp, alpha, error):
         
         print("sum00 = ",sum00, " step_ord = ",int(np.log10(step)));
         
-        if sum00 < error**2 && sum10 > sum00:
+        if (sum00 < error**2) && (sum10 > sum00):
             flag = 0;
             #print("found!");
 
