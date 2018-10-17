@@ -1,7 +1,11 @@
-# NUS_Singapore_Sci_RESCUE_EnKF
+# NUS_Singapore_Sci
+# RESCUE
 
+igemscript.sh: Bash script with the steps used to run GROMACS in the Linux platform. Note that the script does not include PDB and MDP files required to run the simulation.
+
+
+other files: 
 Ensemble Kalman Filter for a simple chemistry model for RESCUE
-
 For documentation, see RESCUE_EnKF_wiki.pdf
 
 Running script: run_idealized_enkf_test.py
