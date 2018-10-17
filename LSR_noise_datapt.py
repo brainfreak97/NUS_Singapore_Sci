@@ -145,7 +145,6 @@ for t in range(timepoint):
 
 coeff_results1 = run_LSR(coefficients_guess, 0.01, 1000);
 coeff_results2 = run_LSR(coeff_results1, 0.005, 300);
-coeff_results1 = run_LSR(coeff_results2, 0.001, 100);
 
 print("Monte-Carlo complete! true value = ", coefficients, " values obtained = ", coeff_results1);
 
